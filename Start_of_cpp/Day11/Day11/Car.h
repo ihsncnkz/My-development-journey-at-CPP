@@ -33,7 +33,7 @@ public:
 	int getCarModelYear();
 	*/
 
-	int* numberOfDoors;
+	int* pnumberOfDoors;
 
 private:
 	string color;

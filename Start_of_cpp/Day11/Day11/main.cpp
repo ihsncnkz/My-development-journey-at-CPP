@@ -12,7 +12,7 @@ public:
 
 
 int main() {
-
+	
 	// Video 19.101
 	
 	Car car1;
@@ -150,6 +150,25 @@ int main() {
 	cout << endl;
 
 	delete p;
+
+	// Video 23.111
+	Car car1("Black", "Audi", 90, 4);
+	Car car2("Blue", "Opel", 100, 4);
+	//cout << "Number of car1 doors: " << *(car1.numberOfDoors) << endl;
+	//cout << "Number of car2 doors: " << *(car2.numberOfDoors) << endl;
+
+
+	Car* p;
+	p = new Car("White", "BMW", 600, 2);
+	//cout << "Number of BMW doors: " << *(p->numberOfDoors) << endl;
+
+	car1.licenseInformation();
+	cout << endl;
+	car2.licenseInformation();
+	cout << endl;
+	p->licenseInformation();
+	cout << endl;
+
 
 	return 0;
 }

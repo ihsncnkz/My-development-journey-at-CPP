@@ -6,19 +6,20 @@ Car::Car(string _color, string _model, int _horsepower, int _numberOfDoors) {
 	color = _color;
 	model = _model;
 	horsepower = _horsepower;
-	numberOfDoors = new int(_numberOfDoors); // *numberOfDoors = _numberOfDoors;
+	pnumberOfDoors = new int(_numberOfDoors); // *numberOfDoors = _numberOfDoors;
 }
 
 // Car Destructor
 Car::~Car() {
 	cout << "The Destructor of "<< Car::model << " called!" << endl;
+	delete pnumberOfDoors;
 }
 
 void Car::licenseInformation() {
 	cout << "Model: " << Car::model << endl;
 	cout << "Color: " << Car::color << endl;
 	cout << "Horse Power: " << Car::horsepower << endl;
-	cout << "Number of doors: " << *(Car::numberOfDoors) << endl;
+	cout << "Number of doors: " << *(Car::pnumberOfDoors) << endl;
 }
 
 void Car::setCarColor(string _color) {
