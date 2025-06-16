@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\work\Project\cpp\CPP\Start_of_cpp\Day13_2\Day13_2\main.cpp(46,53): warning C4566: '\u200B' evrensel karakter adı ile temsil edilen karakter şu anki kod sayfasında (1254) temsil gösterilemiyor
+  Day13_2.vcxproj -> D:\work\Project\cpp\CPP\Start_of_cpp\Day13_2\x64\Debug\Day13_2.exe
