@@ -1,0 +1,27 @@
+﻿  Main.cpp
+D:\work\Project\cpp\CPP\Start_of_cpp\Day16_2\Main.cpp(15,23): warning C4305: '=': truncation from 'double' to 'float'
+D:\work\Project\cpp\CPP\Start_of_cpp\Day16_2\Main.cpp(16,23): warning C4305: '=': truncation from 'double' to 'float'
+D:\work\Project\cpp\CPP\Start_of_cpp\Day16_2\Main.cpp(50,23): warning C4305: '=': truncation from 'double' to 'float'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244: 'initializing': conversion from '_Ty' to '_Ty2', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244:             _Ty=double
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244:             _Ty2=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244:         ]
+  (compiling source file 'Main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54):
+      the template instantiation context (the oldest one first) is
+          D:\work\Project\cpp\CPP\Start_of_cpp\Day16_2\Main.cpp(19,23):
+          see reference to function template instantiation 'std::pair<const int,float>::pair<int,double,0>(_Other1 &&,_Other2 &&) noexcept' being compiled
+          with
+          [
+              _Other1=int,
+              _Other2=double
+          ]
+              D:\work\Project\cpp\CPP\Start_of_cpp\Day16_2\Main.cpp(19,22):
+              see the first reference to 'std::pair<const int,float>::pair' in 'main'
+  
+  Day16_2.vcxproj -> D:\work\Project\cpp\CPP\Start_of_cpp\Day16_2\x64\Debug\Day16_2.exe
