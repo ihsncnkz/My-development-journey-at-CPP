@@ -50,7 +50,5 @@ int main()
 		cout << "User Choice: " << userChoices << " Computer Choice: " << computerChoices << endl;
 		
 	} while (value);
-	
-
 	return 0;
 }
